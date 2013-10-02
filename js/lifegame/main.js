@@ -20,7 +20,7 @@ window.onload = function() {
     context = canvas.getContext('2d');
     context.fillStyle = 'rgb(0, 255, 0)';
     update(field, tempField);
-}
+};
 
 function update(field, tempField) {
     var n = 0; // 自分の周りの生の数
